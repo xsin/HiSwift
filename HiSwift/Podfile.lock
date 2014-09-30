@@ -1,0 +1,80 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FontAwesomeKit (2.1.8):
+    - FontAwesomeKit/Core
+    - FontAwesomeKit/FontAwesome
+    - FontAwesomeKit/FoundationIcons
+    - FontAwesomeKit/IonIcons
+    - FontAwesomeKit/Zocial
+  - FontAwesomeKit/Core (2.1.8)
+  - FontAwesomeKit/FontAwesome (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.1.8):
+    - FontAwesomeKit/Core
+  - hpple (0.2.0)
+  - iCarousel (1.8)
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/FeedParser (1.0.1):
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - NHBalancedFlowLayout (0.2)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - SVProgressHUD (1.0)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.2.4)
+  - FontAwesomeKit (~> 2.1.0)
+  - hpple (~> 0.2.0)
+  - iCarousel (~> 1.8)
+  - MWFeedParser (~> 1.0.1)
+  - NHBalancedFlowLayout (~> 0.2)
+  - SDWebImage (~> 3.6)
+  - SVProgressHUD (from `https://github.com/dkasper/SVProgressHUD`)
+  - SVPullToRefresh (~> 0.4.1)
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/dkasper/SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  FontAwesomeKit: a2edea3111dab107b4cc43b85881b404eb063385
+  hpple: f4eb7c21a8db83ec264e5d614ec7509e10e5adec
+  iCarousel: cf77aea48dfcde9a0cd85569a1d8a9b6dd543bd7
+  MWFeedParser: 003cbf5398e99a7f2057fbe9583054fd1b84be72
+  NHBalancedFlowLayout: be3c297b54f74c27607aaa04563270ecbd2d8e38
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
+  SVPullToRefresh: d5161ebc833a38b465364412e5e307ca80bbb190
+
+COCOAPODS: 0.34.1

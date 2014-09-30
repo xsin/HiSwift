@@ -31,12 +31,15 @@ class SearchResultsViewController:
     
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //searchItunesFor("JQ Software")
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         api = APIController(delegate: self)
         api!.searchItunesFor("Angry Birds")
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

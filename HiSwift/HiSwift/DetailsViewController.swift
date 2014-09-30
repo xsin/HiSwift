@@ -41,7 +41,10 @@ class DetailsViewController:
             api.lookupAlbum(self.album!.collectionId)
         }
         
-        titleLabel.text = self.album?.title
+        var albumTitle = self.album?.title
+        navigationItem.title = albumTitle;
+        
+        titleLabel.text = albumTitle
         //albumCover.image = UIImage(data: NSData(contentsOfURL: NSURL(string: self.album!.largeImageURL)))
         albumCover.image = UIImage(named: "Blank52")
         

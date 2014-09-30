@@ -17,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         println("Hello world!")
+        
+        var tbc = window?.rootViewController as UITabBarController
+        
+        var tb  = tbc.tabBar
+        
+        var tbItem0 = tb.items![0] as UITabBarItem
+        var tbItem1 = tb.items![1] as UITabBarItem
+        
+        tbItem0.image = FAKFontAwesome.homeIconWithSize(24).imageWithSize(CGSizeMake(24, 24))
+        tbItem1.image = FAKFontAwesome.fontIconWithSize(24).imageWithSize(CGSizeMake(24, 24))
+        
         return true
     }
 

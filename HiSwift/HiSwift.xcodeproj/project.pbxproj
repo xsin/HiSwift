@@ -13,12 +13,17 @@
 		0B32894519D7F6C8005DD7CA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32894419D7F6C8005DD7CA /* DetailsViewController.swift */; };
 		0B32894719D803B9005DD7CA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32894619D803B9005DD7CA /* Track.swift */; };
 		0B32894919D8052B005DD7CA /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32894819D8052B005DD7CA /* TrackCell.swift */; };
+		0BDB40F519DA754C00C46EB0 /* IconFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB40F419DA754C00C46EB0 /* IconFontViewController.swift */; };
+		0BDB40F819DA861900C46EB0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB40F619DA861900C46EB0 /* Podfile */; };
+		0BDB40F919DA861900C46EB0 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB40F719DA861900C46EB0 /* TemplateIcon2x.png */; };
+		0BDB410119DAC34800C46EB0 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB410019DAC34800C46EB0 /* Icon-40@3x.png */; };
 		0BF873A419D2C9CC00826B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF873A319D2C9CC00826B57 /* AppDelegate.swift */; };
 		0BF873A619D2C9CC00826B57 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF873A519D2C9CC00826B57 /* SearchResultsViewController.swift */; };
 		0BF873A919D2C9CC00826B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF873A719D2C9CC00826B57 /* Main.storyboard */; };
 		0BF873AB19D2C9CC00826B57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF873AA19D2C9CC00826B57 /* Images.xcassets */; };
 		0BF873AE19D2C9CC00826B57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF873AC19D2C9CC00826B57 /* LaunchScreen.xib */; };
-		0BF873BA19D2C9CC00826B57 /* LVHelloToIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF873B919D2C9CC00826B57 /* LVHelloToIOSTests.swift */; };
+		0BF873BA19D2C9CC00826B57 /* HiSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF873B919D2C9CC00826B57 /* HiSwiftTests.swift */; };
+		7E1CEC73DD0355D9A0CCB5C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CDBEBF7E131ED6A5449B53 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +32,7 @@
 			containerPortal = 0BF8739619D2C9CC00826B57 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0BF8739D19D2C9CC00826B57;
-			remoteInfo = LVHelloToIOS;
+			remoteInfo = HiSwift;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,16 +43,24 @@
 		0B32894419D7F6C8005DD7CA /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		0B32894619D803B9005DD7CA /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		0B32894819D8052B005DD7CA /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
-		0BF8739E19D2C9CC00826B57 /* LVHelloToIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LVHelloToIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDB40F419DA754C00C46EB0 /* IconFontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFontViewController.swift; sourceTree = "<group>"; };
+		0BDB40F619DA861900C46EB0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0BDB40F719DA861900C46EB0 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		0BDB40FD19DA8B7800C46EB0 /* HiSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		0BDB410019DAC34800C46EB0 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@3x.png"; path = "HiSwift/Images.xcassets/AppIcon.appiconset/Icon-40@3x.png"; sourceTree = "<group>"; };
+		0BF8739E19D2C9CC00826B57 /* HiSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF873A219D2C9CC00826B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BF873A319D2C9CC00826B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BF873A519D2C9CC00826B57 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		0BF873A819D2C9CC00826B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BF873AA19D2C9CC00826B57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0BF873AD19D2C9CC00826B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0BF873B319D2C9CC00826B57 /* LVHelloToIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LVHelloToIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF873B319D2C9CC00826B57 /* HiSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF873B819D2C9CC00826B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BF873B919D2C9CC00826B57 /* LVHelloToIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVHelloToIOSTests.swift; sourceTree = "<group>"; };
+		0BF873B919D2C9CC00826B57 /* HiSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiSwiftTests.swift; sourceTree = "<group>"; };
+		48CDBEBF7E131ED6A5449B53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A760F514851BECED4289250E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B90061414A1EBB2797E87875 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1CEC73DD0355D9A0CCB5C5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,41 +82,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDB40FA19DA89EE00C46EB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BF873A519D2C9CC00826B57 /* SearchResultsViewController.swift */,
+				0B32893E19D7E2C9005DD7CA /* APIController.swift */,
+				0B32894419D7F6C8005DD7CA /* DetailsViewController.swift */,
+				0BDB40F419DA754C00C46EB0 /* IconFontViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0BDB40FB19DA8A0D00C46EB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B32894819D8052B005DD7CA /* TrackCell.swift */,
+				0B32894219D7F418005DD7CA /* Album.swift */,
+				0B32894619D803B9005DD7CA /* Track.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		0BF8739519D2C9CC00826B57 = {
 			isa = PBXGroup;
 			children = (
+				0BDB410019DAC34800C46EB0 /* Icon-40@3x.png */,
+				0BDB40F619DA861900C46EB0 /* Podfile */,
+				0BDB40F719DA861900C46EB0 /* TemplateIcon2x.png */,
 				0B32894019D7EB04005DD7CA /* Blank52.png */,
-				0BF873A019D2C9CC00826B57 /* LVHelloToIOS */,
-				0BF873B619D2C9CC00826B57 /* LVHelloToIOSTests */,
+				0BF873A019D2C9CC00826B57 /* HiSwift */,
+				0BF873B619D2C9CC00826B57 /* HiSwiftTests */,
 				0BF8739F19D2C9CC00826B57 /* Products */,
+				58449EDCDC488385446CF645 /* Pods */,
+				73B296D7989721E196FF94A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0BF8739F19D2C9CC00826B57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BF8739E19D2C9CC00826B57 /* LVHelloToIOS.app */,
-				0BF873B319D2C9CC00826B57 /* LVHelloToIOSTests.xctest */,
+				0BF8739E19D2C9CC00826B57 /* HiSwift.app */,
+				0BF873B319D2C9CC00826B57 /* HiSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BF873A019D2C9CC00826B57 /* LVHelloToIOS */ = {
+		0BF873A019D2C9CC00826B57 /* HiSwift */ = {
 			isa = PBXGroup;
 			children = (
 				0BF873A319D2C9CC00826B57 /* AppDelegate.swift */,
-				0BF873A519D2C9CC00826B57 /* SearchResultsViewController.swift */,
+				0BDB40FA19DA89EE00C46EB0 /* Controller */,
 				0BF873A719D2C9CC00826B57 /* Main.storyboard */,
-				0B32894819D8052B005DD7CA /* TrackCell.swift */,
+				0BDB40FB19DA8A0D00C46EB0 /* Models */,
 				0BF873AA19D2C9CC00826B57 /* Images.xcassets */,
 				0BF873AC19D2C9CC00826B57 /* LaunchScreen.xib */,
 				0BF873A119D2C9CC00826B57 /* Supporting Files */,
-				0B32893E19D7E2C9005DD7CA /* APIController.swift */,
-				0B32894219D7F418005DD7CA /* Album.swift */,
-				0B32894419D7F6C8005DD7CA /* DetailsViewController.swift */,
-				0B32894619D803B9005DD7CA /* Track.swift */,
+				0BDB40FD19DA8B7800C46EB0 /* HiSwift-Bridging-Header.h */,
 			);
-			path = LVHelloToIOS;
+			path = HiSwift;
 			sourceTree = "<group>";
 		};
 		0BF873A119D2C9CC00826B57 /* Supporting Files */ = {
@@ -113,13 +150,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0BF873B619D2C9CC00826B57 /* LVHelloToIOSTests */ = {
+		0BF873B619D2C9CC00826B57 /* HiSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				0BF873B919D2C9CC00826B57 /* LVHelloToIOSTests.swift */,
+				0BF873B919D2C9CC00826B57 /* HiSwiftTests.swift */,
 				0BF873B719D2C9CC00826B57 /* Supporting Files */,
 			);
-			path = LVHelloToIOSTests;
+			path = HiSwiftTests;
 			sourceTree = "<group>";
 		};
 		0BF873B719D2C9CC00826B57 /* Supporting Files */ = {
@@ -130,29 +167,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		58449EDCDC488385446CF645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B90061414A1EBB2797E87875 /* Pods.debug.xcconfig */,
+				A760F514851BECED4289250E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73B296D7989721E196FF94A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48CDBEBF7E131ED6A5449B53 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BF8739D19D2C9CC00826B57 /* LVHelloToIOS */ = {
+		0BF8739D19D2C9CC00826B57 /* HiSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BF873BD19D2C9CC00826B57 /* Build configuration list for PBXNativeTarget "LVHelloToIOS" */;
+			buildConfigurationList = 0BF873BD19D2C9CC00826B57 /* Build configuration list for PBXNativeTarget "HiSwift" */;
 			buildPhases = (
+				530A8AE95F34B45E9387D023 /* Check Pods Manifest.lock */,
 				0BF8739A19D2C9CC00826B57 /* Sources */,
 				0BF8739B19D2C9CC00826B57 /* Frameworks */,
 				0BF8739C19D2C9CC00826B57 /* Resources */,
+				7151A03DC732A7AC453A9820 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LVHelloToIOS;
-			productName = LVHelloToIOS;
-			productReference = 0BF8739E19D2C9CC00826B57 /* LVHelloToIOS.app */;
+			name = HiSwift;
+			productName = HiSwift;
+			productReference = 0BF8739E19D2C9CC00826B57 /* HiSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0BF873B219D2C9CC00826B57 /* LVHelloToIOSTests */ = {
+		0BF873B219D2C9CC00826B57 /* HiSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BF873C019D2C9CC00826B57 /* Build configuration list for PBXNativeTarget "LVHelloToIOSTests" */;
+			buildConfigurationList = 0BF873C019D2C9CC00826B57 /* Build configuration list for PBXNativeTarget "HiSwiftTests" */;
 			buildPhases = (
 				0BF873AF19D2C9CC00826B57 /* Sources */,
 				0BF873B019D2C9CC00826B57 /* Frameworks */,
@@ -163,9 +219,9 @@
 			dependencies = (
 				0BF873B519D2C9CC00826B57 /* PBXTargetDependency */,
 			);
-			name = LVHelloToIOSTests;
-			productName = LVHelloToIOSTests;
-			productReference = 0BF873B319D2C9CC00826B57 /* LVHelloToIOSTests.xctest */;
+			name = HiSwiftTests;
+			productName = HiSwiftTests;
+			productReference = 0BF873B319D2C9CC00826B57 /* HiSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +231,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = "Levin Wong";
+				ORGANIZATIONNAME = LV;
 				TargetAttributes = {
 					0BF8739D19D2C9CC00826B57 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -187,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BF8739919D2C9CC00826B57 /* Build configuration list for PBXProject "LVHelloToIOS" */;
+			buildConfigurationList = 0BF8739919D2C9CC00826B57 /* Build configuration list for PBXProject "HiSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -200,8 +256,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BF8739D19D2C9CC00826B57 /* LVHelloToIOS */,
-				0BF873B219D2C9CC00826B57 /* LVHelloToIOSTests */,
+				0BF8739D19D2C9CC00826B57 /* HiSwift */,
+				0BF873B219D2C9CC00826B57 /* HiSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,9 +267,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDB40F819DA861900C46EB0 /* Podfile in Resources */,
 				0BF873A919D2C9CC00826B57 /* Main.storyboard in Resources */,
+				0BDB40F919DA861900C46EB0 /* TemplateIcon2x.png in Resources */,
 				0B32894119D7EB04005DD7CA /* Blank52.png in Resources */,
 				0BF873AE19D2C9CC00826B57 /* LaunchScreen.xib in Resources */,
+				0BDB410119DAC34800C46EB0 /* Icon-40@3x.png in Resources */,
 				0BF873AB19D2C9CC00826B57 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +286,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		530A8AE95F34B45E9387D023 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7151A03DC732A7AC453A9820 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BF8739A19D2C9CC00826B57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -239,6 +331,7 @@
 				0B32894319D7F418005DD7CA /* Album.swift in Sources */,
 				0B32894519D7F6C8005DD7CA /* DetailsViewController.swift in Sources */,
 				0B32894719D803B9005DD7CA /* Track.swift in Sources */,
+				0BDB40F519DA754C00C46EB0 /* IconFontViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BF873BA19D2C9CC00826B57 /* LVHelloToIOSTests.swift in Sources */,
+				0BF873BA19D2C9CC00826B57 /* HiSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +348,7 @@
 /* Begin PBXTargetDependency section */
 		0BF873B519D2C9CC00826B57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BF8739D19D2C9CC00826B57 /* LVHelloToIOS */;
+			target = 0BF8739D19D2C9CC00826B57 /* HiSwift */;
 			targetProxy = 0BF873B419D2C9CC00826B57 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -361,27 +454,34 @@
 		};
 		0BF873BE19D2C9CC00826B57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90061414A1EBB2797E87875 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = LVHelloToIOS/Info.plist;
+				INFOPLIST_FILE = HiSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HiSwift;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HiSwift/HiSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		0BF873BF19D2C9CC00826B57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A760F514851BECED4289250E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = LVHelloToIOS/Info.plist;
+				INFOPLIST_FILE = HiSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HiSwift;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HiSwift/HiSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -397,10 +497,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LVHelloToIOSTests/Info.plist;
+				INFOPLIST_FILE = HiSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LVHelloToIOS.app/LVHelloToIOS";
+				PRODUCT_NAME = HiSwiftTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiSwift.app/HiSwift";
 			};
 			name = Debug;
 		};
@@ -412,17 +512,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LVHelloToIOSTests/Info.plist;
+				INFOPLIST_FILE = HiSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LVHelloToIOS.app/LVHelloToIOS";
+				PRODUCT_NAME = HiSwiftTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiSwift.app/HiSwift";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BF8739919D2C9CC00826B57 /* Build configuration list for PBXProject "LVHelloToIOS" */ = {
+		0BF8739919D2C9CC00826B57 /* Build configuration list for PBXProject "HiSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BF873BB19D2C9CC00826B57 /* Debug */,
@@ -431,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BF873BD19D2C9CC00826B57 /* Build configuration list for PBXNativeTarget "LVHelloToIOS" */ = {
+		0BF873BD19D2C9CC00826B57 /* Build configuration list for PBXNativeTarget "HiSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BF873BE19D2C9CC00826B57 /* Debug */,
@@ -440,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BF873C019D2C9CC00826B57 /* Build configuration list for PBXNativeTarget "LVHelloToIOSTests" */ = {
+		0BF873C019D2C9CC00826B57 /* Build configuration list for PBXNativeTarget "HiSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BF873C119D2C9CC00826B57 /* Debug */,
