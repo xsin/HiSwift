@@ -17,6 +17,7 @@
 		0BDB40F819DA861900C46EB0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB40F619DA861900C46EB0 /* Podfile */; };
 		0BDB40F919DA861900C46EB0 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB40F719DA861900C46EB0 /* TemplateIcon2x.png */; };
 		0BDB410119DAC34800C46EB0 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB410019DAC34800C46EB0 /* Icon-40@3x.png */; };
+		0BEF5E4D19E520010050A4D7 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BEF5E4C19E520010050A4D7 /* fontello.ttf */; };
 		0BF873A419D2C9CC00826B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF873A319D2C9CC00826B57 /* AppDelegate.swift */; };
 		0BF873A619D2C9CC00826B57 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF873A519D2C9CC00826B57 /* SearchResultsViewController.swift */; };
 		0BF873A919D2C9CC00826B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF873A719D2C9CC00826B57 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		0BDB40F719DA861900C46EB0 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		0BDB40FD19DA8B7800C46EB0 /* HiSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		0BDB410019DAC34800C46EB0 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@3x.png"; path = "HiSwift/Images.xcassets/AppIcon.appiconset/Icon-40@3x.png"; sourceTree = "<group>"; };
+		0BEF5E4C19E520010050A4D7 /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello.ttf; sourceTree = "<group>"; };
 		0BF8739E19D2C9CC00826B57 /* HiSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF873A219D2C9CC00826B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BF873A319D2C9CC00826B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		0BF8739519D2C9CC00826B57 = {
 			isa = PBXGroup;
 			children = (
+				0BEF5E4C19E520010050A4D7 /* fontello.ttf */,
 				0BDB410019DAC34800C46EB0 /* Icon-40@3x.png */,
 				0BDB40F619DA861900C46EB0 /* Podfile */,
 				0BDB40F719DA861900C46EB0 /* TemplateIcon2x.png */,
@@ -270,6 +273,7 @@
 				0BDB40F819DA861900C46EB0 /* Podfile in Resources */,
 				0BF873A919D2C9CC00826B57 /* Main.storyboard in Resources */,
 				0BDB40F919DA861900C46EB0 /* TemplateIcon2x.png in Resources */,
+				0BEF5E4D19E520010050A4D7 /* fontello.ttf in Resources */,
 				0B32894119D7EB04005DD7CA /* Blank52.png in Resources */,
 				0BF873AE19D2C9CC00826B57 /* LaunchScreen.xib in Resources */,
 				0BDB410119DAC34800C46EB0 /* Icon-40@3x.png in Resources */,
@@ -461,11 +465,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HiSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = HiSwift;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HiSwift/HiSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -478,10 +484,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HiSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = HiSwift;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HiSwift/HiSwift-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

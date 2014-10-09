@@ -48,7 +48,7 @@ class Album {
                 if price == nil {
                     price = result["collectionPrice"] as? String
                     if price == nil {
-                        var priceFloat: Float? = result["collectionPrice"] as? Float
+                        var priceFloat: Float? = result["collectionPrice"] as? Float ?? 0
                         var nf: NSNumberFormatter = NSNumberFormatter()
                         nf.maximumFractionDigits = 2
                         if priceFloat != nil {
