@@ -1,4 +1,4 @@
-ios-helloSwift
+HiSwift
 ==============
 
-Hello world demo for Swift
+Tutorial demo for Swift
